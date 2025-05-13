@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+#animatedBox {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    margin: 20px auto;
+}
+/* CSS Animation */
+.animate {
+    animation: moveBox 2s forwards;
+}
+@keyframes moveBox {
+    from { left: 0; }
+    to { left: 300px; }
+}
