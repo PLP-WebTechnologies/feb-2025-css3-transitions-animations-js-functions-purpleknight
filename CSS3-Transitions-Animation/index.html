@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Animation</title>
+</head>
+<body>
+    <h2>Interactive Animation with JavaScript & CSS</h2>
+    
+    <button id="startAnimation">Start Animation</button>
+    <button id="saveColor">Save Background Color</button>
+    <button id="loadColor">Load Background Color</button>
+    <br><br>
+    <label for="customMessage">Enter a message:</label>
+    <input type="text" id="customMessage"><br><br>
+
+    <label for="animationSpeed">Select Animation Speed:</label>
+    <select id="animationSpeed">
+        <option value="2s">Slow</option>
+        <option value="1s">Medium</option>
+        <option value="0.5s">Fast</option>
+    </select><br><br>
+
+    <label for="enableAnimation">Enable Animation:</label>
+    <input type="checkbox" id="enableAnimation" checked><br><br>
+
+    <div id="animatedBox"></div>
+    <p id="displayMessage"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
